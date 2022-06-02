@@ -1,5 +1,11 @@
 # design-system
 
+## 2.0.0
+
+### Major Changes
+
+- 370cb8f: edit
+
 ## 1.0.0
 
 ### Major Changes
