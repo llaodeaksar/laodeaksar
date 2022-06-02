@@ -1,5 +1,11 @@
 # design-system
 
+## 3.0.0
+
+### Major Changes
+
+- e289117: add globalstyles
+
 ## 2.0.0
 
 ### Major Changes
