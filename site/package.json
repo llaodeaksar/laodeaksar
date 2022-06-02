@@ -23,5 +23,11 @@
     "prettier": "2.2.1",
     "tsconfig": "latest",
     "typescript": "4.7.2"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
   }
 }
