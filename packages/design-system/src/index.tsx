@@ -34,13 +34,13 @@ export {
 export { default as VisuallyHidden } from './components/VisuallyHidden';
 */
 /** HOOKS **/
-/*export { default as useDebouncedValue } from './hooks/useDebouncedValue';
+/*export { default as useDebouncedValue } from './hooks/useDebouncedValue';*/
 export { default as useKeyboardShortcut } from './hooks/useKeyboardShortcut';
 export {
   default as useTheme,
   ThemeContext,
   ThemeProvider,
-} from './hooks/useTheme';*/
+} from './hooks/useTheme';
 
 /** LIB **/
 export {
