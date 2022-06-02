@@ -1,5 +1,11 @@
 # design-system
 
+## 4.0.0
+
+### Major Changes
+
+- 26cedda: design system
+
 ## 3.0.0
 
 ### Major Changes
