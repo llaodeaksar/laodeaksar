@@ -5,7 +5,7 @@
   "main": "index.js",
   "files": [
     "base.json",
-    "node16.json",
+    "nextjs.json",
     "react-library.json"
   ],
   "publishConfig": {

@@ -1,12 +1,13 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "React Library",
+  "display": "Design System",
   "extends": "./base.json",
   "compilerOptions": {
     "lib": ["dom", "ES2017"],
     "module": "ESNext",
-    "target": "ES6",
+    "target": "ES5",
     "jsx": "react-jsx",
-    "baseUrl": "."
+    "baseUrl": ".",
+    "sourceMap": true
   }
 }
