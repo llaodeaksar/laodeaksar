@@ -1,5 +1,11 @@
 # design-system
 
+## 4.1.0
+
+### Minor Changes
+
+- 0ead87e: token
+
 ## 4.0.0
 
 ### Major Changes
