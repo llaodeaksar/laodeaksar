@@ -1,8 +1,8 @@
 import Head from 'next/head';
 import { globalStyles, ThemeProvider } from "design-system";
 import type { AppProps } from 'next/app'
-import '../styles/globals.css';
-//import '../styles/font.css';
+import '../styles/global.css';
+import '../styles/font.css';
 
 const MyApp = ({ Component, pageProps }: AppProps) => {
   globalStyles()
