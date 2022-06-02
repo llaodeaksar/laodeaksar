@@ -44,11 +44,12 @@ export {
 
 /** LIB **/
 export {
-  // Shadows,
+  Shadows,
   styled,
   css,
   keyframes,
   getCssText,
+  getVariant,
   theme,
   config,
 } from './lib/stitches.config';
