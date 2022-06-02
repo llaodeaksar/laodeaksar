@@ -1,5 +1,11 @@
 # utils
 
+## 3.0.0
+
+### Major Changes
+
+- 26cedda: design system
+
 ## 2.0.0
 
 ### Major Changes
