@@ -20,5 +20,11 @@
     "config": "*",
     "prettier": "^2.5.1",
     "turbo": "latest"
+  },
+  "prettier": {
+    "arrowParens": "always",
+    "singleQuote": true,
+    "tabWidth": 2,
+    "trailingComma": "none"
   }
 }

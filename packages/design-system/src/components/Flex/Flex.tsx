@@ -1,4 +1,4 @@
-import { styled } from '../../lib/stitches.config';
+import { getVariant, styled } from '../../lib/stitches.config';
 
 const Flex = styled('div', {
     display: 'flex',
@@ -48,63 +48,17 @@ const Flex = styled('div', {
             column: {
                 flexDirection: 'column',
             },
-            columnReverse: {
+            ['column-reverse']: {
                 flexDirection: 'column-reverse',
             },
             row: {
                 flexDirection: 'row',
             },
-            rowReverse: {
+            ['row-reverse']: {
                 flexDirection: 'row-reverse',
             },
         },
-        gap: {
-            1: {
-                gap: 'var(--space-1)',
-            },
-            2: {
-                gap: 'var(--space-2)',
-            },
-            3: {
-                gap: 'var(--space-3)',
-            },
-            4: {
-                gap: 'var(--space-4)',
-            },
-            5: {
-                gap: 'var(--space-5)',
-            },
-            6: {
-                gap: 'var(--space-6)',
-            },
-            7: {
-                gap: 'var(--space-7)',
-            },
-            8: {
-                gap: 'var(--space-8)',
-            },
-            9: {
-                gap: 'var(--space-9)',
-            },
-            10: {
-                gap: 'var(--space-10)',
-            },
-            11: {
-                gap: 'var(--space-11)',
-            },
-            12: {
-                gap: 'var(--space-12)',
-            },
-            13: {
-                gap: 'var(--space-13)',
-            },
-            14: {
-                gap: 'var(--space-14)',
-            },
-            15: {
-                gap: 'var(--space-15)',
-            },
-        },
+        gap: getVariant('space', (token) => ({ gap: token })),
         justifyContent: {
             center: {
                 justifyContent: 'center',
@@ -126,17 +80,13 @@ const Flex = styled('div', {
             },
         },
         wrap: {
-            wrap: {
-                flexWrap: 'wrap',
-            },
-            nowrap: {
-                flexWrap: 'nowrap',
-            },
-        },
+            true: { flexWrap: 'wrap' },
+            false: { flexWrap: 'nowrap' }
+        }
     },
     defaultVariants: {
         gap: 1,
-        wrap: 'nowrap',
+        wrap: 'false',
         direction: 'row',
         alignItems: 'center',
         justifyContent: 'flex-start',
