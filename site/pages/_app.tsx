@@ -1,5 +1,6 @@
 import Head from 'next/head';
-import { globalStyles, ThemeProvider } from "design-system";
+import { globalStyles } from "design-system";
+import { ThemeProvider } from "utils";
 import type { AppProps } from 'next/app'
 import '../styles/global.css';
 import '../styles/font.css';
