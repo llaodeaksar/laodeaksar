@@ -1,5 +1,11 @@
 # design-system
 
+## 4.1.2
+
+### Patch Changes
+
+- 8e30d0c: fix error build
+
 ## 4.1.1
 
 ### Patch Changes
