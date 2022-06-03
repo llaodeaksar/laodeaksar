@@ -5,7 +5,9 @@
   "license": "MIT",
   "files": [
     "eslint-design.js",
-    "eslint-next.js"
+    "eslint-next.js",
+    "jest-design.js",
+    "jest-next.js"
   ],
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.7.0",
