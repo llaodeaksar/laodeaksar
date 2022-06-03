@@ -1,6 +1,6 @@
 /** COMPONENTS **/
-/*export { default as Anchor } from './components/Anchor';
-export { default as Blockquote } from './components/Blockquote';
+export { default as Anchor } from './components/Anchor';
+/*export { default as Blockquote } from './components/Blockquote';
 export { default as Box } from './components/Box';
 */
 export { default as Button } from './components/Button';
@@ -33,14 +33,6 @@ export {
 } from './components/Typography';
 export { default as VisuallyHidden } from './components/VisuallyHidden';
 */
-/** HOOKS **/
-export { default as useDebouncedValue } from './hooks/useDebouncedValue';
-export { default as useKeyboardShortcut } from './hooks/useKeyboardShortcut';
-export {
-  default as useTheme,
-  ThemeContext,
-  ThemeProvider,
-} from './hooks/useTheme';
 
 /** LIB **/
 export {
