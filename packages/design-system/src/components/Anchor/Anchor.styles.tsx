@@ -1,4 +1,4 @@
-import { styled } from 'design-system';
+import { styled } from '../../lib/stitches.config';
 
 export const StyledAnchor = styled('a', {
   $$color: 'var(--laodeaksar-colors-brand)',

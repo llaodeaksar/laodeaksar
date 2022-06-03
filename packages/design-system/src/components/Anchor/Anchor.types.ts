@@ -1,5 +1,4 @@
-
-import type { CSS } from 'design-system';
+import type { CSS } from '../../lib/stitches.config';
 
 export type ArrowPosition = 'left' | 'right';
 
