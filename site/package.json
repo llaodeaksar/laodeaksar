@@ -6,11 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --coverage",
-    "lint": "next lint"
+    "lint": "next lint",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "design-system": "latest",
+    "design-system": "*",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0",
