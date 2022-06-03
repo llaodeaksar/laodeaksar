@@ -2,6 +2,11 @@
   "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
+    "paths": {
+      "@theme/*": [
+        "core/*"
+      ]
+    },
     "incremental": true
   },
   "include": [
