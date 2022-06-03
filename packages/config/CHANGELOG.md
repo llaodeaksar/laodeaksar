@@ -1,5 +1,11 @@
 # config
 
+## 3.0.1
+
+### Patch Changes
+
+- 806b390: testing
+
 ## 3.0.0
 
 ### Major Changes
